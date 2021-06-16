@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import Coin from "./Coin";
-import { atom, selector, useRecoilState, useRecoilValue } from "recoil";
+import { atom, selector, useRecoilState } from "recoil";
 
 const coinState = atom({
   key: "coinState",
